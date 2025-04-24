@@ -40,6 +40,7 @@ This system simulates a team of agents — a Researcher, a Drafter, and a Critic
 ├── app.py                  # Streamlit frontend UI
 ├── .env                    # API keys (Tavily & Cohere)
 └── README.md               # You're reading it
+```
 
 ⚙️ Installation
 1. Clone this repo
