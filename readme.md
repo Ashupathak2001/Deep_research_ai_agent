@@ -5,7 +5,7 @@ This system simulates a team of agents — a Researcher, a Drafter, and a Critic
 
 ---
 
-## 🚀 Features
+##  Features
 
 🔍 **Agent 1 - Researcher**
 - Uses Tavily API for deep web search
@@ -42,23 +42,23 @@ This system simulates a team of agents — a Researcher, a Drafter, and a Critic
 └── README.md               # You're reading it
 
 ⚙️ Installation
-Clone this repo
+1. Clone this repo
 
 git clone https://github.com/yourusername/ai-research-agents.git
 cd ai-research-agents
-Create .env file
 
+2. Create .env file
 env
 
 TAVILY_API_KEY=your_tavily_api_key
 COHERE_API_KEY=your_cohere_api_key
 
-Install dependencies
+3. Install dependencies
 
 pip install -r requirements.txt
 Run the app
 
-streamlit run app.py
+4. streamlit run app.py
 
 🛠 Requirements
 
