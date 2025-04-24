@@ -42,26 +42,28 @@ This system simulates a team of agents — a Researcher, a Drafter, and a Critic
 └── README.md               # You're reading it
 ```
 
-⚙️ Installation
+## ⚙️ Installation
 1. Clone this repo
 
-git clone https://github.com/yourusername/ai-research-agents.git
-cd ai-research-agents
+    git clone https://github.com/yourusername/ai-research-agents.git
+
+    cd ai-research-agents
 
 2. Create .env file
-env
 
-TAVILY_API_KEY=your_tavily_api_key
-COHERE_API_KEY=your_cohere_api_key
+    TAVILY_API_KEY=your_tavily_api_key
+
+    COHERE_API_KEY=your_cohere_api_key
 
 3. Install dependencies
 
-pip install -r requirements.txt
-Run the app
+    pip install -r requirements.txt
+
+    Run the app
 
 4. streamlit run app.py
 
-🛠 Requirements
+## 🛠 Requirements
 
 Python 3.9+
 
@@ -81,7 +83,8 @@ dotenv
 
 pip freeze > requirements.txt
 
-How It Works
+## How It Works
+
 User inputs a research question
 
 Agent1 runs multi-query search and summarizes findings
@@ -95,7 +98,7 @@ Final answer + evaluation are shown in UI
 User can provide feedback and request refinement
 
 
-✨ Future Ideas
+## ✨ Future Ideas
 Add PDF/CSV export
 
 Add citations tooltips and footnotes
@@ -106,7 +109,7 @@ Dark mode toggle
 
 Feedback-based model fine-tuning
 
-🙌 Credits
+## 🙌 Credits
 Built with using:
 
 LangChain
@@ -117,5 +120,5 @@ Cohere
 
 Streamlit
 
-📬 Contact
+## 📬 Contact
 For queries, drop me a message at [ashupathak22@gmail.com] or connect on LinkedIn
