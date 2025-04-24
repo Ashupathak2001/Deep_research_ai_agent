@@ -1,0 +1,12 @@
+langchain
+langchain-experimental
+langchain-cohere
+langgraph
+streamlit
+cohere
+tavily-python
+python-dotenv
+pydantic
+langchain-community
+black
+flake8
